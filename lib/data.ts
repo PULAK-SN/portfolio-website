@@ -5,7 +5,10 @@ import { LuGraduationCap } from "react-icons/lu";
 
 // project thumbnail
 // import corpcommentImg from "@/public/corpcomment.png";
-// import rmtdevImg from "@/public/rmtdev.png";
+import whiteBoard from "@/public/white-board.png";
+import gpt3 from "@/public/gpt-3.png";
+
+import rmtdevImg from "@/public/rmtdev.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -77,21 +80,21 @@ export const projectsData = [
       "Convex",
       "Liveblocks",
     ],
-    // imageUrl: corpcommentImg,
+    imageUrl: whiteBoard,
   },
   {
     title: "Real-Time Video Calling App",
     description:
       "A web-based video calling platform built using \textbf{Socket.IO, PeerJS}, and the \textbf{React Context API} to enable real-time, peer-to-peer video communication between users.",
     tags: ["HTML", "CSS", "React", "Next.Js", "WebRTC", "PeerJS"],
-    // imageUrl: rmtdevImg,
+    imageUrl: rmtdevImg,
   },
   {
     title: "GPT-3 Landing Page",
     description:
       " Developed a modern, responsive landing page inspired by OpenAI’s GPT-3, demonstrating clean UI design and component-based architecture. The project showcases front-end development skills and attention to detail. ",
     tags: ["HTML", "CSS", "React"],
-    // imageUrl: wordanalyticsImg,
+    imageUrl: gpt3,
   },
 ] as const;
 

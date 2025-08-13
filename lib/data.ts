@@ -1,14 +1,8 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-
 // project thumbnail
 // import corpcommentImg from "@/public/corpcomment.png";
 import whiteBoard from "@/public/white-board.png";
 import gpt3 from "@/public/gpt-3.png";
-
-import rmtdevImg from "@/public/rmtdev.png";
+import carePulse from "@/public/care-pulse.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -34,33 +28,6 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
-
 export const projectsData = [
   {
     title: "White Board",
@@ -71,36 +38,46 @@ export const projectsData = [
       "TypeScript",
       "Next.js",
       "Tailwind",
-      "Shadcn",
+      "ShadCN UI",
       "Clerk",
       "Convex",
       "Liveblocks",
     ],
     links: {
-      liveLinks: "",
-      githubLink: "",
+      liveLinks: "https://board-phi-five.vercel.app/",
+      githubLink: "https://github.com/PULAK-SN/board",
     },
     imageUrl: whiteBoard,
   },
   {
-    title: "Real-Time Video Calling App",
-    description: `A web-based video calling platform built using \textbf{Socket.IO, PeerJS}, and the \textbf{React Context API} to enable real-time, peer-to-peer video communication between users.
-      A web-based video calling platform built using \textbf{Socket.IO, PeerJS}, and the \textbf{React Context API} to enable real-time, peer-to-peer video communication between users.`,
-    tags: ["HTML", "CSS", "React", "Next.Js", "WebRTC", "PeerJS"],
+    title: "Doctor Appointment Booking System",
+    description: `A full-stack web application that allows patients to request appointments 
+    with doctors and enables admins to manage, schedule, or cancel those requests.
+    Patients can fill in detailed personal, medical, and contact information, upload identity proof, 
+    and choose appointment date`,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "ShadCN UI",
+      "Appwrite",
+      "Zod",
+    ],
     links: {
-      liveLinks: "",
-      githubLink: "",
+      liveLinks: "https://care-pulse-nine-dun.vercel.app/",
+      githubLink: "https://github.com/PULAK-SN/care-pulse",
     },
-    imageUrl: rmtdevImg,
+    imageUrl: carePulse,
   },
   {
     title: "GPT-3 Landing Page",
-    description: ` Developed a modern, responsive landing page inspired by OpenAI’s GPT-3, demonstrating clean UI design and component-based architecture. The project showcases front-end development skills and attention to detail.
-      Developed a modern, responsive landing page inspired by OpenAI’s GPT-3, demonstrating clean UI design and component-based architecture. The project showcases front-end development skills and attention to detail.`,
-    tags: ["HTML", "CSS", "React"],
+    description: ` Developed a modern, responsive landing page inspired by OpenAI’s GPT-3, demonstrating
+     clean UI design and component-based architecture. The project showcases front-end development skills
+      and attention to detail.`,
+    tags: ["HTML", "CSS", "React", "JavaScript"],
     links: {
-      liveLinks: "",
-      githubLink: "",
+      liveLinks: "https://gpt-3-zeta-nine.vercel.app/",
+      githubLink: "https://github.com/PULAK-SN/GPT3",
     },
     imageUrl: gpt3,
   },

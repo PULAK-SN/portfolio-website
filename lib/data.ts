@@ -1,9 +1,7 @@
-// project thumbnail
-// import corpcommentImg from "@/public/corpcomment.png";
 import whiteBoard from "@/public/white-board.png";
 import gpt3 from "@/public/gpt-3.png";
 import carePulse from "@/public/care-pulse.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
+import restaurent from "@/public/restaurent.png";
 
 export const links = [
   {
@@ -61,7 +59,7 @@ export const projectsData = [
       "Tailwind CSS",
       "ShadCN UI",
       "Appwrite",
-      "Zod",
+      "Zod (Form Validation)",
     ],
     links: {
       liveLinks: "https://care-pulse-nine-dun.vercel.app/",
@@ -74,12 +72,25 @@ export const projectsData = [
     description: ` Developed a modern, responsive landing page inspired by OpenAI’s GPT-3, demonstrating
      clean UI design and component-based architecture. The project showcases front-end development skills
       and attention to detail.`,
-    tags: ["HTML", "CSS", "React", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript", "React"],
     links: {
       liveLinks: "https://gpt-3-zeta-nine.vercel.app/",
       githubLink: "https://github.com/PULAK-SN/GPT3",
     },
     imageUrl: gpt3,
+  },
+  {
+    title: "Restaurent Application",
+    description: `This project is a visually appealing restaurant application landing page. Built using React, 
+    it demonstrates skills in front-end development, showcasing a clean and responsive design. 
+    The application incorporates key sections such as a hero section, about us, menu, and contact, 
+    effectively utilizing React components.`,
+    tags: ["HTML", "CSS", "JavaScript", "React"],
+    links: {
+      liveLinks: "https://restaurant-application-theta.vercel.app",
+      githubLink: "https://github.com/PULAK-SN/Restaurant-Application",
+    },
+    imageUrl: restaurent,
   },
 ] as const;
 

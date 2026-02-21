@@ -35,7 +35,7 @@ const Contacts = () => {
           name="senderEmail"
           required
           maxLength={100}
-          placeholder="Your emial"
+          placeholder="Your email"
           className="h-14 px-4 rounded-lg border border-black/10"
         />
         <textarea

@@ -1,8 +1,7 @@
 import whiteBoard from "@/public/white-board.png";
 import school from "@/public/school-dashboard.png";
-import gpt3 from "@/public/gpt-3.png";
 import carePulse from "@/public/care-pulse.png";
-import restaurent from "@/public/restaurent.png";
+import chatify from "@/public/chatify.png";
 
 export const links = [
   {
@@ -29,6 +28,26 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "Chatify",
+    description:
+      "Chatify is a full-stack, real-time communication platform built using the MERN stack (MongoDB, Express, React, Node.js) and Socket.io. The application features secure user authentication, private real-time messaging with image support via Cloudinary.",
+    tags: [
+      "React",
+      "Javascript",
+      "Node.js",
+      "MondoDB",
+      "Socket.io",
+      "Cloudinary",
+      "Zod (Form Validation)",
+      "Tailwind",
+    ],
+    links: {
+      liveLinks: "https://chatify-t545.onrender.com",
+      githubLink: "https://github.com/PULAK-SN/chatify-app",
+    },
+    imageUrl: chatify,
+  },
+  {
     title: "School Dashboard",
     description:
       "Architected a robust school management solution with a modular, role-based access control system, enabling secure authentication for admins, teachers, students, and parents via Clerk and JWT session management.",
@@ -46,27 +65,6 @@ export const projectsData = [
       githubLink: "https://github.com/PULAK-SN/school-management",
     },
     imageUrl: school,
-  },
-  {
-    title: "White Board",
-    description: `Developed a real-time collaborative whiteboard application using Next.js, Clerk, and Convex. 
-      The platform allows teams to draw, create sticky notes, and collaborate visually with secure 
-      authentication and instant update.`,
-    tags: [
-      "React",
-      "TypeScript",
-      "Next.js",
-      "Tailwind",
-      "ShadCN UI",
-      "Clerk",
-      "Convex",
-      "Liveblocks",
-    ],
-    links: {
-      liveLinks: "https://board-phi-five.vercel.app/",
-      githubLink: "https://github.com/PULAK-SN/board",
-    },
-    imageUrl: whiteBoard,
   },
   {
     title: "Doctor Appointment Booking System",
@@ -89,29 +87,25 @@ export const projectsData = [
     imageUrl: carePulse,
   },
   {
-    title: "Restaurent Application",
-    description: `This project is a visually appealing restaurant application landing page. Built using React, 
-    it demonstrates skills in front-end development, showcasing a clean and responsive design. 
-    The application incorporates key sections such as a hero section, about us, menu, and contact, 
-    effectively utilizing React components.`,
-    tags: ["HTML", "CSS", "JavaScript", "React"],
+    title: "White Board",
+    description: `Developed a real-time collaborative whiteboard application using Next.js, Clerk, and Convex. 
+      The platform allows teams to draw, create sticky notes, and collaborate visually with secure 
+      authentication and instant update.`,
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "ShadCN UI",
+      "Clerk",
+      "Convex",
+      "Liveblocks",
+    ],
     links: {
-      liveLinks: "https://restaurant-application-theta.vercel.app",
-      githubLink: "https://github.com/PULAK-SN/Restaurant-Application",
+      liveLinks: "https://board-phi-five.vercel.app/",
+      githubLink: "https://github.com/PULAK-SN/board",
     },
-    imageUrl: restaurent,
-  },
-  {
-    title: "GPT-3 Landing Page",
-    description: ` Developed a modern, responsive landing page inspired by OpenAI’s GPT-3, demonstrating
-     clean UI design and component-based architecture. The project showcases front-end development skills
-      and attention to detail.`,
-    tags: ["HTML", "CSS", "JavaScript", "React"],
-    links: {
-      liveLinks: "https://gpt-3-zeta-nine.vercel.app/",
-      githubLink: "https://github.com/PULAK-SN/GPT3",
-    },
-    imageUrl: gpt3,
+    imageUrl: whiteBoard,
   },
 ] as const;
 
@@ -123,9 +117,11 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Redux Toolkit",
   "Git",
   "Tailwind",
   "Express",
   "MySql",
+  "MondoDB",
   "Framer Motion",
 ] as const;

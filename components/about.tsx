@@ -15,28 +15,17 @@ const About = () => {
       <SectionHeading>about me</SectionHeading>
 
       <p className="mb-3 text-[18px] leading-relaxed md:leading-loose">
-        {/* After graduating with a degree in{" "}
-        <span className="font-medium">Computer Science</span>, I decided to
-        pursue my passion for programming. I enrolled in a coding bootcamp and
-        learned <span className="font-medium">frontend web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is <span className="font-medium">React and Next.js</span>. I am also
-        familiar with TypeScript and Prisma. I am always looking to learn new
-        technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer. */}
         After completing my Master’s degree in Computer Science from{" "}
         <span className="font-medium">South Asian University, New Delhi</span> ,
         I decided to fully pursue my passion for programming. I began my journey
         with a coding bootcamp where I developed a strong foundation in{" "}
-        <span className="font-medium">frontend web development</span>. <br />
+        <span className="font-medium">web development</span>. <br />
         My core stack includes{" "}
-        <span className="font-medium">React and Next.js</span> , and I’m also
-        proficient with <span className="font-medium">TypeScript</span>. I’m
-        always eager to explore and learn new technologies to enhance my skills
-        and stay up to date with industry trends. Currently, I’m seeking a{" "}
+        <span className="font-medium">Next.js and express.js</span> , and I’m
+        also proficient with <span className="font-medium">TypeScript</span>.
+        I’m always eager to explore and learn new technologies to enhance my
+        skills and stay up to date with industry trends. Currently, I’m seeking
+        a{" "}
         <span className="font-medium">
           full-time software developer position
         </span>{" "}
